@@ -390,15 +390,11 @@ color: black;
 
 /*start header*/
 .header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    -webkit-transition: .2s linear;
-    -o-transition: .2s linear;
-    transition: .2s linear;
-    padding-bottom: 20px;
-    z-index: 999;
+    padding-bottom: 50px;
 }
 
 .header_logo_pic{
@@ -556,7 +552,7 @@ bottom: 0;
 /*start footer*/
 .footer{
     background-color:rgb(51, 48, 48);
-    padding: 119px 0;
+    padding: 19px 0;
 }
 
 .foot{
